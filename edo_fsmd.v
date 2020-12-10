@@ -1,3 +1,16 @@
+/*
+ ----------------------------------------------------------------------------
+Company:    UFABC - Engenharia de Informação - CECS
+Engineer:   João Garrido
+  
+Design Name:    Eletrônica Digital (ESTI002-17)
+Module Name:    tb_edo_fsmd.v
+Language:       Verilog
+  
+Descrição: This is the code for the last project of the laboratory subject.
+-----------------------------------------------------------------------------
+*/
+
 module edo_fsmd
   (  
 	input reset,clk,
@@ -12,6 +25,7 @@ module edo_fsmd
 
 
 	reg signed [15:0] X,Y;
+	
 	reg signed [31:0] op0,op1,op2,op3,op4,op5,op6; // arithmetic ops.
 	reg signed [15:0] IM1,IM2,IM3,IM4; // wires (multiplication correction)
 
@@ -27,7 +41,7 @@ module edo_fsmd
   Steste=7, 
   Sf=8; 
 
-  //fsm
+  // fsm
   
 	always@(posedge clk or posedge reset)
 		begin 
@@ -59,7 +73,6 @@ module edo_fsmd
 						estado <= Sf;
 			endcase
 		end
-		
 		
 	always@(estado)
 		begin 
