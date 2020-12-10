@@ -1,7 +1,7 @@
 /*
  ----------------------------------------------------------------------------
 Company:    UFABC - Engenharia de Informação - CECS
-Engineer:   João Garrido
+Engineer:   João Garrido (RA: 11201811064)
   
 Design Name:    Eletrônica Digital (ESTI002-17)
 Module Name:    tb_edo_fsmd.v
