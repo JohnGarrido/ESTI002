@@ -1,2 +1,2 @@
 # ESTI002
-Repo for final project of Digital Electronics @ Universidade Federal do ABC.
+Repo for my final project of Digital Electronics @ Universidade Federal do ABC.
